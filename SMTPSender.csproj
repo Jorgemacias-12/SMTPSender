@@ -46,16 +46,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="src\Form1.cs">
+    <Compile Include="src\Controllers\EmailSender.cs" />
+    <Compile Include="src\Models\Email.cs" />
+    <Compile Include="src\Models\EmailAttachment.cs" />
+    <Compile Include="src\Models\EmailCredentials.cs" />
+    <Compile Include="src\Utils\Converters.cs" />
+    <Compile Include="src\Utils\Logger.cs" />
+    <Compile Include="src\Utils\Validations.cs" />
+    <Compile Include="src\Views\CreedentialsModal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="src\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="src\Views\CreedentialsModal.Designer.cs">
+      <DependentUpon>CreedentialsModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\Views\SMTPSender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Views\SMTPSender.Designer.cs">
+      <DependentUpon>SMTPSender.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="src\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="src\Views\CreedentialsModal.resx">
+      <DependentUpon>CreedentialsModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Views\SMTPSender.resx">
+      <DependentUpon>SMTPSender.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
