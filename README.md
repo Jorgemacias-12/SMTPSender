@@ -21,6 +21,14 @@ The project is organized as follows:
    - A modal window (`CredentialsModal`) will open where you should provide your email address and password.
    - Once credentials are entered, click "Save."
 
+   **Note:** If you are using 2-Step Verification for your Gmail account, you might need to use an App Password. Follow these steps to generate and use an App Password:
+   - Go to [https://myaccount.google.com/security](https://myaccount.google.com/security).
+   - Scroll down to "How you sign in to Google."
+   - Enable 2-Step Verification.
+   - Add App Password.
+   - Use the generated password in your code.
+   - Alternatively, you can use the direct link [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
+
 2. **Sending Emails:**
    - After entering credentials, the section for composing emails (`SMTPSender`) will be enabled.
    - Enter the recipient, subject, and body of the email.
@@ -67,7 +75,15 @@ El proyecto está organizado de la siguiente manera:
    - Ejecute la aplicación.
    - Haga clic en el botón "Credenciales" para ingresar la información de su cuenta de correo electrónico de Gmail.
    - Se abrirá una ventana modal (`CredentialsModal`) donde deberá proporcionar su dirección de correo electrónico y contraseña.
-   - Una vez ingresadas las credenciales, haga clic en "Guardar".
+   - Una vez ingresadas las credenciales, haga clic en "Guardar."
+
+   **Nota:** Si está utilizando la verificación en dos pasos para su cuenta de Gmail, es posible que necesite utilizar una Contraseña de aplicación. Siga estos pasos para generar y utilizar una Contraseña de aplicación:
+   - Vaya a [https://myaccount.google.com/security](https://myaccount.google.com/security).
+   - Desplácese hacia abajo hasta "Cómo inicias sesión en Google."
+   - Habilite la Verificación en dos pasos.
+   - Agregue una Contraseña de aplicación.
+   - Utilice la contraseña generada en su código.
+   - Alternativamente, puede utilizar el enlace directo [https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords).
 
 2. **Envío de Correos:**
    - Después de ingresar las credenciales, se habilitará la sección para redactar correos (`SMTPSender`).
