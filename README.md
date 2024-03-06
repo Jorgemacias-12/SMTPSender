@@ -54,7 +54,7 @@ This project is under the [MIT License](LICENSE).
 
 ---
 
-# SMTPSender - Proyecto de prueba de SMTP Client en C
+# SMTPSender - Proyecto de prueba de SMTP Client en C#
 
 ## Descripción del Proyecto
 
